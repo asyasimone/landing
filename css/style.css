@@ -1,0 +1,133 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.banner p {
+  color: white;
+    opacity: .7;
+    font-size: 20px;
+}
+
+.header {
+  margin: auto;
+  width: 850px;
+}
+
+.btn-green {
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+}
+
+.how_it_works_container h2 {
+  text-align: center;
+}
+
+.apply_card {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(225, 225, 225);
+  width: 215px;
+  box-shadow: 0 0 5px rgb(213,213,213);
+}
+
+.apply_card img {
+  height: 150px;
+  width: auto;
+}
+
+.apply_card p {
+  opacity: 0.5;
+}
+
+.learn_to_code_card {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(225, 225, 225);
+  width: 215px;
+  box-shadow: 0 0 5px rgb(213,213,213);
+}
+
+.learn_to_code_card img {
+  height: 135px;
+  width: auto;
+}
+
+.learn_to_code_card p {
+  opacity: 0.5;
+}
+
+.build_products_card {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(225, 225, 225);
+  width: 215px;
+  box-shadow: 0 0 5px rgb(213,213,213);
+}
+
+.build_products_card img {
+  height: 150px;
+  width: auto;
+}
+
+.build_products_card p {
+  opacity: 0.5;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+
+.footer ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #1EDD88;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+
+.footer {
+  background-color: rgb(43, 43, 43);
+}
+
+.footer p {
+  color: white;
+  opacity: .3;
+  text-align: center;
+  padding-bottom: 100px;
+}
